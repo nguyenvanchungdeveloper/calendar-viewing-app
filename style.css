@@ -1,0 +1,80 @@
+     #dateEle {
+          display: flex;
+     }
+
+     .day.active {
+          color: rgba(247, 64, 18, 0.952);
+          background-color: rgba(19, 23, 235, 0.836);
+     }
+
+     .date {
+          width: calc(60px * 8);
+          display: flex;
+          flex-wrap: wrap;
+     }
+
+     .day,
+     .day-name {
+          width: 60px;
+          height: 60px;
+          border: 1px solid rgb(207, 158, 158);
+          font-size: 1.4rem;
+          text-align: center;
+          line-height: 60px;
+     }
+
+     .infoCommon {
+          display: flex;
+          justify-content: center;
+          font-weight: 700;
+          margin-bottom: 12px;
+          font-size: 1.23rem;
+          border-bottom: 1px dashed rgb(252, 49, 42);
+     }
+
+     #monthEle {
+          margin-right: 8px;
+     }
+
+     .buttonControl {
+          display: flex;
+          justify-content: space-evenly;
+          margin-bottom: 12px;
+     }
+
+     button {
+          background-color: rgba(0, 0, 255, 0.966);
+          border: none;
+          border-radius: 5px;
+          padding: 8px 12px;
+          color: #fff;
+          cursor: pointer;
+          font-size: 1.2rem;
+          opacity: 0.8;
+     }
+
+     button:hover {
+          opacity: 1;
+          background-color: rgba(0, 0, 255, 1);
+     }
+
+     .container {
+          width: 480px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0 auto;
+     }
+
+     h3 {
+          text-align: center;
+          margin-bottom: 32px;
+          border-bottom: 1px solid #c9baba;
+     }
+
+     .detail {
+          margin-left: 32px;
+     }
+
+     .day-name {
+          background-color: yellow;
+          color: red;
+     }
